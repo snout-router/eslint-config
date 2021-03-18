@@ -15,4 +15,23 @@ module.exports = {
     // makes it harder to overlook early return statements
     'padding-line-between-statements': ['error', {blankLine: 'always', prev: '*', next: 'return'}],
   },
+  overrides: [
+    {
+      files: ['test/**/*.ts', 'test/**/*.js'],
+      extends: [
+        'plugin:jest/recommended',
+        'plugin:jest/style',
+      ],
+      plugins: [
+        'jest',
+      ],
+      env: {
+        jest: true,
+      },
+      rules: {
+        // focused tests that make it to CI will cause a build failure
+        'jest/no-focused-tests': 'warn',
+      },
+    },
+  ],
 }
