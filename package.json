@@ -8,7 +8,7 @@
   ],
   "repository": "packula/eslint-config",
   "bugs": "https://github.com/packula/eslint-config/issues",
-  "homepage": "https://packula.dev/",
+  "homepage": "https://packula.dev",
   "author": "Erin Millard <ezzatron@gmail.com>",
   "license": "MIT",
   "publishConfig": {
