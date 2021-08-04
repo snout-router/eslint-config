@@ -1,9 +1,9 @@
-# Packula ESLint configuration
+# Snout ESLint configuration
 
 [![Current version][badge-version-image]][badge-version-link]
 
-[badge-version-image]: https://img.shields.io/npm/v/@packula/eslint-config?label=%40packula%2Feslint-config&logo=npm&style=for-the-badge
-[badge-version-link]: https://npmjs.com/package/@packula/eslint-config
+[badge-version-image]: https://img.shields.io/npm/v/@snout/eslint-config?label=%40snout%2Feslint-config&logo=npm&style=for-the-badge
+[badge-version-link]: https://npmjs.com/package/@snout/eslint-config
 
 ## Installation
 
@@ -16,7 +16,7 @@ dependencies are necessary because of [an ESLint limitation].
 // .eslintrc.js
 module.exports = {
   extends: [
-    '@packula',
+    '@snout',
   ],
 }
 ```

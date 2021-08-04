@@ -1,14 +1,14 @@
 {
-  "name": "@packula/eslint-config",
+  "name": "@snout/eslint-config",
   "version": "0.0.0",
-  "description": "The ESLint configuration used by Packula repositories",
+  "description": "The ESLint configuration used by Snout repositories",
   "keywords": [
     "eslint",
     "eslintconfig"
   ],
-  "repository": "packula/eslint-config",
-  "bugs": "https://github.com/packula/eslint-config/issues",
-  "homepage": "https://packula.dev",
+  "repository": "snout-router/eslint-config",
+  "bugs": "https://github.com/snout-router/eslint-config/issues",
+  "homepage": "https://snout.dev",
   "author": "Erin Millard <ezzatron@gmail.com>",
   "license": "MIT",
   "publishConfig": {
