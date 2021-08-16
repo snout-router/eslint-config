@@ -19,6 +19,8 @@
     ".eslintrc.js"
   ],
   "dependencies": {
+    "eslint-config-standard-jsx": "^10.0.0",
+    "eslint-config-standard-react": "^11.0.1",
     "eslint-config-standard-with-typescript": "^20.0.0"
   },
   "peerDependencies": {
@@ -33,6 +35,8 @@
     "eslint-plugin-jest": "^24.3.2",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-react": "^7.24.0",
+    "react": "^17.0.2",
     "typescript": "^4.2.3"
   }
 }
