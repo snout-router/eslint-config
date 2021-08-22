@@ -1,4 +1,4 @@
-# Snout ESLint configuration
+# Snout ESLint Configuration
 
 [![Current version][badge-version-image]][badge-version-link]
 
