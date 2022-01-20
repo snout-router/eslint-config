@@ -26,13 +26,13 @@
     "eslint-plugin-jest": ">=24"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.18.0",
-    "@typescript-eslint/parser": "^4.18.0",
+    "@typescript-eslint/eslint-plugin": "^5.10.0",
+    "@typescript-eslint/parser": "^5.10.0",
     "eslint": ">=7",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jest": ">=24",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-promise": "^6.0.0",
     "typescript": "^4.2.3"
   }
 }
