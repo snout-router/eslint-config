@@ -1,37 +1,39 @@
 module.exports = {
-  extends: [
-    'standard-with-typescript',
-  ],
-  parserOptions: {
-    project: './tsconfig.json',
-  },
-  rules: {
-    // consistent usage of parentheses around single-argument arrow functions
-    'arrow-parens': ['error', 'as-needed'],
-    // reduces diff churn when adding to multi-line constructs
-    'comma-dangle': ['error', 'always-multiline'],
-    // no space inside braces
-    'object-curly-spacing': ['error', 'never'],
-    // makes it harder to overlook early return statements
-    'padding-line-between-statements': ['error', {blankLine: 'always', prev: '*', next: 'return'}],
+  extends: ["eslint:recommended", "prettier"],
+  env: {
+    node: true,
   },
   overrides: [
     {
-      files: ['test/**/*.ts', 'test/**/*.js'],
+      files: ["*.ts", "*.tsx"],
       extends: [
-        'plugin:jest/recommended',
-        'plugin:jest/style',
+        "plugin:@typescript-eslint/recommended",
+        "plugin:@typescript-eslint/recommended-requiring-type-checking",
       ],
-      plugins: [
-        'jest',
+      parserOptions: {
+        project: "./tsconfig.json",
+      },
+    },
+    {
+      files: [
+        "*.spec.js",
+        "*.spec.jsx",
+        "*.spec.ts",
+        "*.spec.tsx",
+        "*.test.js",
+        "*.test.jsx",
+        "*.test.ts",
+        "*.test.tsx",
       ],
+      extends: ["plugin:jest/recommended"],
+      plugins: ["jest"],
       env: {
         jest: true,
       },
       rules: {
         // focused tests that make it to CI will cause a build failure
-        'jest/no-focused-tests': 'warn',
+        "jest/no-focused-tests": "warn",
       },
     },
   ],
-}
+};

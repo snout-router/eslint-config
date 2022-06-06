@@ -15,10 +15,8 @@ dependencies are necessary because of [an ESLint limitation].
 ```js
 // .eslintrc.js
 module.exports = {
-  extends: [
-    '@snout',
-  ],
-}
+  extends: ["@snout"],
+};
 ```
 
 <!-- References -->
