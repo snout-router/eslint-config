@@ -26,6 +26,8 @@ module.exports = {
         argsIgnorePattern: "^_",
       },
     ],
+    // handled by import/no-unresolved
+    "n/no-missing-import": ["off"],
   },
   overrides: [
     {
