@@ -7,8 +7,7 @@
 
 ## Installation
 
-Install as an NPM and then resolve all the peer dependency issues. Peer
-dependencies are necessary because of [an ESLint limitation].
+Install as a dev dependency using your preferred package manager.
 
 ## Usage
 
@@ -18,7 +17,3 @@ module.exports = {
   extends: ["@snout"],
 };
 ```
-
-<!-- References -->
-
-[an eslint limitation]: https://github.com/eslint/eslint/issues/3458
