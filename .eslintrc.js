@@ -28,7 +28,11 @@ module.exports = {
       },
     ],
     // handled by import/no-unresolved
-    "n/no-missing-import": ["off"],
+    "n/no-missing-import": "off",
+    // don't check for unsupported features - too much config to make this work
+    "n/no-unsupported-features/es-builtins": "off",
+    "n/no-unsupported-features/es-syntax": "off",
+    "n/no-unsupported-features/node-builtins": "off",
   },
   overrides: [
     {
