@@ -12,7 +12,7 @@ Install as a dev dependency using your preferred package manager.
 ## Usage
 
 ```js
-// .eslintrc.js
+// .eslintrc.cjs
 module.exports = {
   extends: ["@snout"],
 };
