@@ -1,7 +1,13 @@
 require("@rushstack/eslint-patch/modern-module-resolution");
 
 module.exports = {
-  extends: ["eslint:recommended", "prettier"],
+  extends: [
+    "eslint:recommended",
+    "plugin:n/recommended",
+    "plugin:import/recommended",
+    "plugin:promise/recommended",
+    "prettier",
+  ],
   parserOptions: {
     sourceType: "module",
     ecmaFeatures: {
