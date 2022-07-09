@@ -3,6 +3,15 @@ module.exports = {
   env: {
     node: true,
   },
+  rules: {
+    "no-unused-vars": [
+      "error",
+      {
+        // allow unused args if they start with _
+        argsIgnorePattern: "^_",
+      },
+    ],
+  },
   overrides: [
     {
       files: ["*.ts", "*.tsx"],
@@ -12,6 +21,15 @@ module.exports = {
       ],
       parserOptions: {
         project: "./tsconfig.json",
+      },
+      rules: {
+        "@typescript-eslint/no-unused-vars": [
+          "error",
+          {
+            // allow unused args if they start with _
+            argsIgnorePattern: "^_",
+          },
+        ],
       },
     },
     {
