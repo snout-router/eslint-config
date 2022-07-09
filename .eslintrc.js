@@ -5,6 +5,7 @@ module.exports = {
     "eslint:recommended",
     "plugin:n/recommended",
     "plugin:import/recommended",
+    "plugin:import/typescript",
     "plugin:promise/recommended",
     "prettier",
   ],
@@ -38,6 +39,9 @@ module.exports = {
       ],
       parserOptions: {
         project: "./tsconfig.json",
+      },
+      settings: {
+        "import/resolver": "typescript",
       },
       rules: {
         "@typescript-eslint/no-unused-vars": [
