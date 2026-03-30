@@ -31,11 +31,11 @@
     "eslint-plugin-promise": "^7.0.0"
   },
   "peerDependencies": {
-    "typescript": "^5.0.2"
+    "typescript": "^5.0.2 || ^6.0.0"
   },
   "devDependencies": {
     "@snout/tsconfig": "^3.0.0",
     "prettier": "^3.0.0",
-    "typescript": "^5.1.6"
+    "typescript": "^6.0.0"
   }
 }
